@@ -1,0 +1,377 @@
+@media only screen and (max-width: 800px){
+
+    header .master_pl {
+        /* display: none; */
+        /* position: absolute; */
+        /* border: 2px solid red; */
+        display: block;
+        margin: auto;
+    }
+
+    header .master_pl .wave{
+        display: none;
+    }
+    header .master_play .icon{
+        margin-left: 10%;
+    }
+    header .master_pl .icon{
+        position: absolute;
+        /* border: 2px solid red; */
+        margin-top: 10%;
+        font-size: 50px;
+        width: 100%;
+        display: flex;
+        /* margin: auto; */
+    }
+    header .master_pl .icon .bi:nth-child(1) {
+            margin-left: 0%;
+            margin-top: -40px;
+    }
+    header .master_pl .icon .bi:nth-child(2) {
+    
+            margin-left: 10%;
+    }
+    header .master_pl .icon .bi:nth-child(3) {
+    
+            margin-left: 15%;
+    }
+    header .master_pl .icon .bi:nth-child(4) {
+    
+            margin-left: 16%;
+    }
+    header .master_play_mobil {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .bi-chevron-double-up {
+        color: #fff;
+        font-size: 30px;
+    }
+    #barr{
+        /* display: flex; */
+    }
+    .bi-chevron-double-down {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    header .master_pl img {
+        width: 400px;
+        height: 400px;
+        margin-top: 5vh;
+        box-shadow: 0px 0px 10px 5px black;
+        border-radius: 50%;
+        margin-left: 20%;
+        padding: 10px;
+    }
+
+    header .master_play h5{
+        display: none;
+    } 
+    header .master_pl h5 {
+        font-size: 20px;
+        /* border: 1px solid pink; */
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5%;
+        display: block;
+    }
+
+    header .master_pl h5 .subtitle {
+        font-size: 15px;
+    }
+    header .master_pl .vol {
+        display: none;
+    }
+  header .master_play .vol {
+      display: none;
+  }
+
+    header .master_pl .bar {
+        /* position: absolute; */
+        margin-top: -70px;
+        width: 90%;
+        margin: 10px 10px 10px 10px;
+        margin: auto;
+        /* border: 1px solid red; */
+        /* position: relative; */
+    }
+        header .master_pl #currentEnd{
+            position: absolute;
+            margin-left: 92%;
+            margin-top: -3%;
+        }
+        header .master_play #currentEnd{
+            /* position: absolute; */
+            /* margin-left: -10px; */
+            /* margin-top: -3%; */
+        }
+        header .master_play #currentStart{
+            /* position: absolute; */
+            margin-right: 10px;
+            /* margin-top: -3%; */
+        }
+        header .master_pl #currentStart{
+            /* margin-top: -4%; */
+        }
+
+    header .bi-chevron-double-down {
+        top: 0;
+        right: 0;
+        margin: 10px;
+        position: absolute;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    header .master_play .bar{
+        position: absolute; 
+        margin-bottom: 15%;
+        margin-left: -3.3%;
+    }
+    header .master_play .wave {
+     /* display: none; */
+    }
+     header .master_pl img {
+      margin-left: 10%;
+    }
+     header .master_pl #currentEnd {
+     position: relative;
+     left: 85%;
+     margin: auto;
+     /* position: absolute; */
+     /* margin-right: -20px; */
+     /* margin-bottom: -20px; */
+     /* margin-left: 90%; */
+      }
+     header .master_pl #currentStart {
+     position: relative;
+     margin-bottom: 20px;
+      }
+    header .master_pl .bar {
+        width: 75%;
+        margin-left: 8%;
+        margin-top: -6px;
+        /* position: absolute; */
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    header .master_play .wave {
+            display: none;
+            /* margin-left: 0px; */
+            /* position: ; */
+        }
+}
+@media only screen and (max-width: 530px) {
+    header .song_side nav .user i{
+        margin-right: 30px;
+    }
+         header .master_play .icon {
+             /* border: 1px solid #fff; */
+             /* min-width: 160px; */
+         }
+    header .master_pl .bar{
+        /* width: 80%; */
+        /* margin-left: 20%; */
+        position: absolute;
+    }
+    header .master_play img {
+        width: 70px;
+        height: 70px;
+        /* margin-left: -8%; */
+        margin-top: 25px;
+        }
+    header .master_pl img {
+        width: 399px;
+        height: 399px;
+        margin-left: 10%;
+        }
+    header .song_side nav .search{
+        margin-left: 50px;
+     display: flex;
+    }
+
+    header .master_play .wave {
+            /* display: none; */
+            /* margin-left: 0px; */
+            /* position: ; */
+        }
+      /* header .master_play .icon  { */
+        /* border: 1px solid #fff; */
+        /* min-width: 160px; */
+      /* } */
+          header .song_side nav ul{
+            display: none;
+          }
+      header .master_pl .icon .bi:nth-child(1) {
+       margin-left: -5%;
+       /* display: none; */
+    }
+
+        /* header .master_pl #currentEnd { */
+           /* margin-left: -15%; */
+        /* position: relative; */
+            /* left: 85%; */
+            /* margin: auto; */
+           /* padding: 3px; */
+           /* margin: 5px; */
+        /* } */
+
+        header .master_play #currentEnd {
+           /* display: none; */
+           /* opacity: 0; */
+        }
+    
+        header .master_play #currentStart {
+            /* display: none; */
+            /* opacity: 0; */
+        }
+     /* header .master_play .bar{
+        margin-bottom: 15%;
+        margin-left: -6%;
+     } */
+}
+@media only screen and (max-width: 440px) {
+        header .master_play .wave {
+                display: none;
+                /* margin-left: 0px; */
+                /* position: ; */
+            }
+                        header .master_pl img {
+                            width: 359px;
+                            height: 359px;
+                            margin-left: 2%;
+                        }
+   header .master_pl .icon .bi:nth-child(1) {
+         margin-left: -10%;
+    }
+        header .master_play #currentStart {
+            /* margin-left: -10%; */
+            /* display: flex; */
+            /* position: relative; */
+        }
+        header .master_play .icon {
+            min-width: 210px;
+        }
+}
+@media only screen and (max-width: 400px) {
+            header .master_pl #currentEnd {
+                    /* display: block; */
+                }
+   header .master_play .icon .bi:nth-child(1) {
+    /* display: flex; */
+        /* margin-top:9%; */
+     }
+           header .master_pl img {
+            width: 330px;
+            height: 330px;
+            margin-left: -1%;
+            margin-top: 20%;
+            animation: spin 8s linear infinite;
+           }
+                header .master_pl #currentStart {
+                    /* display: block; */
+                }
+
+                  header .master_play .icon {
+                      /* border: 1px solid #fff; */
+                      min-width: 160px;
+                      margin-top: 23%;
+                      margin-left: 1%;
+                  }
+                  header .master_pl .icon {
+                      /* border: 1px solid #fff; */
+                      margin-top: 30%;
+                      margin-left: 7%;
+                  }
+
+         header .master_pl .icon .bi:nth-child(1) {
+             /* margin-left: 189%; */
+         }
+         header .master_play .icon .bi:nth-child(1) {
+             /* margin-left: -188%; */
+         }
+                  header .master_play .bar{
+                    margin-left: -5.5%;
+                  }
+                  header .master_pl .bar{
+                    margin-top: 10%;
+                    margin: auto;
+                    margin-left: -2%;
+                    width: 95%;
+                  }
+
+                   header .master_pl .wave {
+                       display: flex;
+                       margin: auto;
+                       margin-top: -9%;
+                       font-size: 90px;
+                       /* position: ; */
+                   }
+}
+@media only screen and (max-width: 1010px) {
+    header .menu_side {
+        display: none;
+        z-index: 9;
+        position: absolute;
+        width: 270px;
+
+    }
+
+    header .song_side .bi-list {
+        display: block;
+        /* margin-left: 220px; */
+        margin-top: 10px;
+
+        font-size: 40px;
+        z-index: 9;
+        position: absolute;
+    }
+
+    header .menu_side .bi-x-lg {
+        display: block;
+        margin-left: 220px;
+        font-size: 40px;
+        z-index: 9;
+        position: absolute;
+    }
+
+    header .song_side .bi-list:hover {
+        color: rgb(223, 222, 222);
+    }
+
+    header .song_side {
+        z-index: 2;
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    header .menu_side .bi-x-lg:hover {
+        color: rgb(154, 154, 154);
+    }
+
+    header .song_side {
+        z-index: 2;
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+}
+
+   /* header .master_play .bar 
+       position: absolute;
+       width: 100%;
+       height: 5px;
+       background: rgb(105, 105, 170, .1);
+       margin: 0px 15px 0px 10px;
+       bottom: 10%;
+       /* position: absolute; */
+       /* margin-left: -2.7%; */
+       /* border: 1px solid red; */
