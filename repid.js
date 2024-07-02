@@ -41,8 +41,8 @@ const updateTerm = () => {
             document.getElementById('title').textContent = result.track.title;
             document.querySelector('.subtitle').textContent = result.track.artist ? result.track.artist.name : 'Unknown Artist';
             document.getElementById('poster_master_play').src = result.track.share.image;
-            document.getElementById('masterPlay').src = result.track.hub.actions[1].uri;
-            document.getElementById('masterPlay').play();
+            music.src = result.track.hub.actions[1].uri;
+            music.play();
             });
             
             article.appendChild(img);
