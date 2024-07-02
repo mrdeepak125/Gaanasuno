@@ -43,6 +43,18 @@ const updateTerm = () => {
             document.getElementById('poster_master_play').src = result.track.share.image;
             music.src = result.track.hub.actions[1].uri;
             music.play();
+            if (music.paused || music.currentTime <= 0) {
+                music.play();
+                wave.classList.add('active1');
+                masterPlay.classList.remove('bi-play-fill');
+                masterPlay.classList.add('bi-pause-fill');
+            } else {
+                music.pause();
+                wave.classList.remove('active1');
+                masterPlay.classList.add('bi-play-fill');
+                masterPlay.classList.remove('bi-pause-fill');
+            }
+        
             });
             
             article.appendChild(img);
