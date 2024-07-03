@@ -72,12 +72,23 @@ const updateTerm = () => {
 const search = document.getElementById('searchTerm');
 search.addEventListener("keypress", updateTerm);
 
-document.addEventListener('play', event => {
+music.addEventListener('play', event => {
     const audio = document.getElementsByTagName('audio');
     for (let i = 0; i < audio.length; i++) {
         if (audio[i] !== event.target) {
             audio[i].pause();
         }
+    }
+    if (music.paused || music.currentTime <= 0) {
+        music.play();
+        wave.classList.add('active1');
+        masterPlay.classList.remove('bi-play-fill');
+        masterPlay.classList.add('bi-pause-fill');
+    } else {
+        music.pause();
+        wave.classList.remove('active1');
+        masterPlay.classList.add('bi-play-fill');
+        masterPlay.classList.remove('bi-pause-fill');
     }
 }, true);
 
