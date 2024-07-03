@@ -1,5 +1,5 @@
 //music controll start
-const music = new Audio('audio/16.mp3');
+// const music = new Audio('audio/16.mp3');
 // music.play();
 //music controll end
 //all music in obj start
