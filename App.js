@@ -1,5 +1,5 @@
 //music controll start
-// const music = new Audio('audio/16.mp3');
+const music = new Audio('audio/16.mp3');
 // music.play();
 //music controll end
 //all music in obj start
@@ -295,22 +295,22 @@ input.addEventListener('keyup', () => {
 })
 // search
 // music play start
-// let masterPlay = document.getElementById('masterPlay');
-// let wave = document.getElementById('wave');
-// masterPlay.addEventListener('click', ()=> {
-//     if (music.paused || music.currentTime <= 0) {
-//         music.play();
-//         wave.classList.add('active1');
-//         masterPlay.classList.remove('bi-play-fill');
-//         masterPlay.classList.add('bi-pause-fill');
-//     } else {
-//         music.pause();
-//         wave.classList.remove('active1');
-//         masterPlay.classList.add('bi-play-fill');
-//         masterPlay.classList.remove('bi-pause-fill');
-//     }
-//     // masterPlay.classList.toggle('bi-stop-fill');
-// })
+let masterPlay = document.getElementById('masterPlay');
+let wave = document.getElementById('wave');
+masterPlay.addEventListener('click', ()=> {
+    if (music.paused || music.currentTime <= 0) {
+        music.play();
+        wave.classList.add('active1');
+        masterPlay.classList.remove('bi-play-fill');
+        masterPlay.classList.add('bi-pause-fill');
+    } else {
+        music.pause();
+        wave.classList.remove('active1');
+        masterPlay.classList.add('bi-play-fill');
+        masterPlay.classList.remove('bi-pause-fill');
+    }
+    // masterPlay.classList.toggle('bi-stop-fill');
+})
 // music play end
 
 //1. scroll button start
